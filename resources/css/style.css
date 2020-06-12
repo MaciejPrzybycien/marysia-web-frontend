@@ -68,6 +68,12 @@ h2:after {
 	margin: 0 auto;
 	margin-top: 30px;
 }
+h4 {
+	font-size: 110%;
+	font-weight: 200;
+	color: #e89115;
+	text-align: left;
+}
 .box {
 	padding: 2%;
 }
@@ -311,7 +317,10 @@ header {
 	font-size: 20px;
 	margin-right: 10px;
 }
-
+.service-title {
+	display: flex;
+}
+.list-item {display: none;}
 /*-----ABOUT US-----*/
 
 .section-about-us {
