@@ -131,31 +131,31 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:active,
 input[type=submit]:hover {
-	background-color:rgba(248, 148, 6, 0.6);
+	background-color: rgba(250, 177, 12, 0.35);
 	color: #000;
-	border: 1px solid #fff;
+	border: 1px solid rgba(250, 177, 12, 0.35);
 }
 
 .btn-top:link,
 .btn-top:visited {
 	display: none;
 	text-align: center;
-	transform: translate(325%);
-	padding: 20px 25px;
+	transform: translate(280%);
+	padding: 8px 15px;
 	text-decoration: none;
 	border: 1px solid #a7a7a7;
 	color: #a7a7a7;
 	border-radius: 20%;
 	transition: background-color 0.4s, border 0.4s, color 0.4s;
 	box-shadow: 0 2px 2px #ededed;
-	margin-top: 0;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .btn-top:hover,
 .btn-top:active {
 	background-color:rgba(250, 177, 12, 0.35);
 	color: #000;
-	border: 1px solid #fff;
+	border: 1px solid rgba(250, 177, 12, 0.35);
 }
 
 
@@ -197,15 +197,15 @@ header {
 	width: auto;
 	float: left;
 	margin-top: 5px;
-	margin-left: 00px;
+	margin-left: 30px;
 }
 .logo-week {
 	display: none;
 	height: 180px;
 	width: auto;
-	margin-top: 70px;
+	margin-top: 30px;
 	padding-top: 110px;
-	margin-bottom: -30px;
+	margin-bottom: -20px;
 }
 .main-nav {
 	list-style: none;
@@ -237,7 +237,7 @@ header {
 /*sticky nav*/
 .sticky {
 	position: fixed;
-	top: -150px;
+	top: -130px;
 	left: 0;
 	padding-bottom: 0px;
 	width: 100%;
@@ -247,7 +247,7 @@ header {
 }
 
 .sticky .main-nav {
-	margin-top: 160px;
+	margin-top: 120px;
 }
 
 .sticky .main-nav li a:link,
