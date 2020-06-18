@@ -1,26 +1,19 @@
 /* From big tablet to Desktop: 1200px to 1366px*/
 @media only screen and (max-width: 1366px) {
 	
-		.text-hero-btm {
-		width: 100%;
-		padding: 2% 3%;
-			
-}
-
-
-}
+		
 
 /* From big tablet to 1200px (width smaller than 1140px row)*/
 @media only screen and (max-width: 1200px) {
 	
 	.hero-text-box {
 		width: 100%;
-		padding: 0 2%;
+		padding: 0 5%;
 }
 	.text-hero-btm {
 		width: 100%;
 		padding: 1% 2%;
-		transform: translate(-10%);
+		transform: translate(-25%);
 }
 	.main-nav {
 		margin-top: 10px;
