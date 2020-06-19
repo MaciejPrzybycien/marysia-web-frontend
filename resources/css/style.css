@@ -383,6 +383,35 @@ textarea {
 #newsletter {
 	margin-right: 10px;
 }
+/*-----COOKIES BANNER-----*/
+
+.cookies-banner {
+	background-color: #000;
+	text-align: center;
+	padding-top: 50px;
+}
+.cookies-text { 
+	margin-bottom: 30px;
+}
+.btn-cookies-close{
+	padding: 3px 7px;
+	text-decoration: none;
+	border: 1px solid #a7a7a7;
+	color: #a7a7a7;
+	margin-right: 40px;
+	border-radius: 20%;
+	box-shadow: 0 2px 2px #ededed;
+}
+
+.btn-cookies-more {
+	padding: 7px 6px;
+	text-decoration: none;
+	border: 1px solid #a7a7a7;
+	color: #a7a7a7;
+	margin-right: 40px;
+	border-radius: 20%;
+	box-shadow: 0 2px 2px #ededed;
+}
 /*-----FOOOTER-----*/
 
 footer {
