@@ -26,6 +26,10 @@ $(document).ready(function() {
 	$('.js--scroll-to-section-about-us').click (function(){
 		$('html, body').animate({scrollTop: $('.js--about-us').offset().top}, 1000);
 		
+	})
+	$('.js--scroll-to-section-contact').click (function(){
+		$('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000);
+		
 	});
 	
 	/*Animation on scroll*/

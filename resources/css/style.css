@@ -68,6 +68,12 @@ h2:after {
 	margin: 0 auto;
 	margin-top: 30px;
 }
+h4 {
+	font-size: 110%;
+	font-weight: 200;
+	color: #e89115;
+	text-align: left;
+}
 .box {
 	padding: 2%;
 }
@@ -118,38 +124,41 @@ input[type=submit] {
 	margin-bottom: 100px;
 	transition: background-color 0.4s, border 0.4s, color 0.4s;
 	box-shadow: 0 2px 2px #ededed;
-	transform: translate(50%, 50%);
 	
 }
 .btn:hover,
 .btn:active,
 input[type=submit]:active,
 input[type=submit]:hover {
-	background-color:rgba(248, 148, 6, 0.6);
+	background-color: rgba(250, 177, 12, 0.35);
 	color: #000;
-	border: 1px solid #fff;
+	border: 1px solid rgba(250, 177, 12, 0.35);
+}
+
+.btn-main {
+	transform: translate(30%, 30%);
 }
 
 .btn-top:link,
 .btn-top:visited {
 	display: none;
 	text-align: center;
-	transform: translate(325%);
-	padding: 20px 25px;
+	transform: translate(280%);
+	padding: 8px 15px;
 	text-decoration: none;
 	border: 1px solid #a7a7a7;
 	color: #a7a7a7;
 	border-radius: 20%;
 	transition: background-color 0.4s, border 0.4s, color 0.4s;
 	box-shadow: 0 2px 2px #ededed;
-	margin-top: 0;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .btn-top:hover,
 .btn-top:active {
 	background-color:rgba(250, 177, 12, 0.35);
 	color: #000;
-	border: 1px solid #fff;
+	border: 1px solid rgba(250, 177, 12, 0.35);
 }
 
 
@@ -163,26 +172,29 @@ header {
 }
 
 .hero-text-box {
-	position: absolute;
 	width: 1140px;
-	top:35%;
-	left: 30%;
+	text-align: center;
+	margin-top: 150px;
 }
 .text-hero {
 	font-size: 150%;
+	letter-spacing: 1px;
+	word-spacing: 5px;
 	color: #e69829;
 	text-transform: uppercase;
-	margin-bottom: 5px;
-	text-align: center;
-	transform: translate(-25%, -25%)
+	margin-bottom: 10px;
+	text-align: right;
+	transform: translate(-5%, -4%)
 }
 .text-hero-btm {
 	font-size: 135%;
+	letter-spacing: 1px;
 	color: #ce8a2a;
-	text-align: center;
-	transform: translate(-25%, -25%);
+	text-align: right;
+	transform: translate(-23%, 10%);
 	
 }
+
 /*main nav*/
 
 .logo {
@@ -191,15 +203,16 @@ header {
 	width: auto;
 	float: left;
 	margin-top: 5px;
-	margin-left: 00px;
+	margin-left: 40px;
 }
 .logo-week {
 	display: none;
 	height: 180px;
 	width: auto;
-	margin-top: 70px;
+	margin-top: 30px;
 	padding-top: 110px;
-	margin-bottom: -30px;
+	margin-bottom: -20px;
+	margin-left: 50px;
 }
 .main-nav {
 	list-style: none;
@@ -231,7 +244,7 @@ header {
 /*sticky nav*/
 .sticky {
 	position: fixed;
-	top: -150px;
+	top: -130px;
 	left: 0;
 	padding-bottom: 0px;
 	width: 100%;
@@ -241,7 +254,7 @@ header {
 }
 
 .sticky .main-nav {
-	margin-top: 160px;
+	margin-top: 120px;
 }
 
 .sticky .main-nav li a:link,
@@ -253,7 +266,11 @@ header {
 	color: #a7a2a2;
 	border-bottom: 2px solid transparent;
 }
-
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+	color: rgba(250, 177, 12, 0.7);
+	transition: color 0.4s;
+}
 .sticky .logo {display: none;}
 .sticky .logo-week {display: inline-block;}
 .sticky .btn-top {display: inline-block;}
@@ -311,7 +328,10 @@ header {
 	font-size: 20px;
 	margin-right: 10px;
 }
-
+.service-title {
+	display: flex;
+}
+.list-item {display: none;}
 /*-----ABOUT US-----*/
 
 .section-about-us {
@@ -363,6 +383,35 @@ textarea {
 #newsletter {
 	margin-right: 10px;
 }
+/*-----COOKIES BANNER-----*/
+
+.cookies-banner {
+	background-color: #000;
+	text-align: center;
+	padding-top: 50px;
+}
+.cookies-text { 
+	margin-bottom: 30px;
+}
+.btn-cookies-close{
+	padding: 3px 7px;
+	text-decoration: none;
+	border: 1px solid #a7a7a7;
+	color: #a7a7a7;
+	margin-right: 40px;
+	border-radius: 20%;
+	box-shadow: 0 2px 2px #ededed;
+}
+
+.btn-cookies-more {
+	padding: 7px 6px;
+	text-decoration: none;
+	border: 1px solid #a7a7a7;
+	color: #a7a7a7;
+	margin-right: 40px;
+	border-radius: 20%;
+	box-shadow: 0 2px 2px #ededed;
+}
 /*-----FOOOTER-----*/
 
 footer {
@@ -372,7 +421,7 @@ footer {
 .footer-nav {
 	list-style: none;
 	text-decoration: none;
-	color:#f89406;
+	color:rgba(250, 177, 12, 0.7);
 	float: left;
 }
 .social-icons {
@@ -398,7 +447,7 @@ footer {
 }
 .nav-foot:hover,
 .nav-foot:active {
-	color: #d17f0a;
+	color: rgba(250, 177, 12, 0.7);
 	-webkit-transition: color 0.4s;
 	transition: color 0.4s;
 }
@@ -413,7 +462,7 @@ footer ion-icon {
 }
 footer ion-icon:hover,
 footer ion-icon:active {
-	color: #d17f0a;
+	color: rgba(250, 177, 12, 0.7);
 	-webkit-transition: color 0.4s;
 	transition: color 0.4s;
 }
