@@ -120,7 +120,7 @@ input[type=submit] {
 	border: 1px solid rgba(0, 0, 0, 0.41);
 	color: #000;
 	border-radius: 25%;
-	margin-top: 10px;
+	margin-top: 25px;
 	margin-bottom: 100px;
 	transition: background-color 0.4s, border 0.4s, color 0.4s;
 	box-shadow: 0 2px 2px #ededed;
@@ -136,14 +136,14 @@ input[type=submit]:hover {
 }
 
 .btn-main {
-	transform: translate(30%, 30%);
+	transform:translate(15vw);
 }
 
 .btn-top:link,
 .btn-top:visited {
 	display: none;
 	text-align: center;
-	transform: translate(280%);
+	transform: translate(28vw);
 	padding: 8px 15px;
 	text-decoration: none;
 	border: 1px solid #a7a7a7;
@@ -172,9 +172,9 @@ header {
 }
 
 .hero-text-box {
-	width: 1140px;
+	width: 70vw;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 140px;
 }
 .text-hero {
 	font-size: 150%;
@@ -183,17 +183,18 @@ header {
 	color: #e69829;
 	text-transform: uppercase;
 	margin-bottom: 10px;
-	text-align: right;
-	transform: translate(-5%, -4%)
+	text-align: center;
+	transform: translate(15vw);
 }
 .text-hero-btm {
 	font-size: 135%;
 	letter-spacing: 1px;
 	color: #ce8a2a;
-	text-align: right;
-	transform: translate(-23%, 10%);
-	
+	text-align:center;
+	transform: translate(15vw);
+	margin-top: 20px;
 }
+
 
 /*main nav*/
 
