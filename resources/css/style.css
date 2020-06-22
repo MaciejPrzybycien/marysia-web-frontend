@@ -139,27 +139,6 @@ input[type=submit]:hover {
 	transform:translate(15vw);
 }
 
-.btn-top:link,
-.btn-top:visited {
-	display: none;
-	text-align: center;
-	transform: translate(28vw);
-	padding: 8px 15px;
-	text-decoration: none;
-	border: 1px solid #a7a7a7;
-	color: #a7a7a7;
-	border-radius: 20%;
-	transition: background-color 0.4s, border 0.4s, color 0.4s;
-	box-shadow: 0 2px 2px #ededed;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-.btn-top:hover,
-.btn-top:active {
-	background-color:rgba(250, 177, 12, 0.35);
-	color: #000;
-	border: 1px solid rgba(250, 177, 12, 0.35);
-}
 
 
 /*-----HEADER-----*/
@@ -206,15 +185,7 @@ header {
 	margin-top: 5px;
 	margin-left: 40px;
 }
-.logo-week {
-	display: none;
-	height: 180px;
-	width: auto;
-	margin-top: 30px;
-	padding-top: 110px;
-	margin-bottom: -20px;
-	margin-left: 50px;
-}
+
 .main-nav {
 	list-style: none;
 	float: right;
@@ -234,47 +205,73 @@ header {
 	text-transform: uppercase;
 	font-size: 110%;
 	border-bottom: 2px solid transparent;
-	-webkit-transition: border-bottom 0.4s;
-	transition: border-bottom 0.4s;
 }
 .main-nav li a:hover,
 .main-nav li a:active {
-	border-bottom: 2px solid rgba(248, 148, 6, 0.77)
+	border-bottom: 2px solid rgba(248, 148, 6, 0.77);
 }
 
 /*sticky nav*/
-.sticky {
+
+.staw {
+	display: none;
 	position: fixed;
-	top: -130px;
+	top: 0;
 	left: 0;
-	padding-bottom: 0px;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.86);
-	box-shadow: 0 2px 4px #f4f4f4;
-	z-index: 9999; 
+	height: 120px;
+	background-color: rgba(255, 255, 255, 0.85);
+	z-index: 9999;
 }
 
-.sticky .main-nav {
-	margin-top: 120px;
+.logo-week {
+	height: 100px;
+	width: auto;
+	margin-bottom: 20px;
+	margin-left: 80px;
+}
+
+.btn-top:link,
+.btn-top:visited {
+	width: 160px;
+	height: auto;
+	text-align:center;
+	padding: 2px 5px;
+	text-decoration: none;
+	border: 1px solid #a7a7a7;
+	color: #a7a7a7;
+	border-radius: 25%;
+	transition: background-color 0.4s, border 0.4s, color 0.4s;
+	box-shadow: 0 2px 2px #ededed;
+	margin-top: 35px;
+	transform: translate(70%);
+}
+.btn-top:hover,
+.btn-top:active {
+	background-color:rgba(250, 177, 12, 0.35);
+	color: #000;
+	border: 1px solid rgba(250, 177, 12, 0.35);
 }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-	color: #272727;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 110%;
 	color: #a7a2a2;
-	border-bottom: 2px solid transparent;
+	margin-right: 20px;
 }
 .sticky .main-nav li a:hover,
 .sticky .main-nav li a:active {
 	color: rgba(250, 177, 12, 0.7);
 	transition: color 0.4s;
 }
-.sticky .logo {display: none;}
-.sticky .logo-week {display: inline-block;}
-.sticky .btn-top {display: inline-block;}
+
+
+}
+.sticky.staw {
+	display: flex;
+}
 
 /*-----WHY CHOOSE US-----*/
 
