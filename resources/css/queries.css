@@ -1,13 +1,19 @@
 /* From big tablet to Desktop: 1200px to 1366px*/
 @media only screen and (max-width: 1366px) {
-	
+	header {                                                                    
 		
+		height: 80vh;
+	}
 
 /* From big tablet to 1200px (width smaller than 1140px row)*/
 @media only screen and (max-width: 1200px) {
 	.main-nav li {
 		margin-right: 10px;
 }
+	.btn-main {
+		margin-top: 20px;
+		margin-bottom: 1px;
+	}
 	}
 
 /* Small tablet to big tablet: from 768px to 1098px */
@@ -15,6 +21,15 @@
 	.main-nav li {
 		margin-right: 10px;
 }
+	.btn-main {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+		header {                                                                    
+		
+		height: 100vh;
+	}
+
 	section {
 	margin-top: 20px;
 }
